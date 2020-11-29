@@ -35,6 +35,8 @@ header {
   align-items: center;
   background-color: #9D9690;
   padding-top: 20px;
+  padding-bottom: 80px;
+  margin-bottom: -80px;
 }
 
 .sub {
@@ -90,5 +92,4 @@ header {
 .parts .background {
   position: absolute;
   z-index: -1;
-  /* bottom: 0; */
 }
