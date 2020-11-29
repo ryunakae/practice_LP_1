@@ -102,11 +102,13 @@ header {
   border-radius: 20px;
 }
 
+/* 注意書きの小文字 */
 .caution {
   font-size: 10px;
   line-height: 15px;
 }
 
+/* 各段落のpの背景 */
 .black {
   background: rgba(11, 11, 11, 0.3);
 }
@@ -131,6 +133,7 @@ header {
   margin-bottom: 0;
 }
 
+/* 文字数大のスペース調整 */
 #longp {
   margin-bottom: 10px;
 }
@@ -139,6 +142,7 @@ header {
   margin-bottom: 0;
 }
 
+/* 画像の背景化 */
 .background {
   position: absolute;
   width: 100%;
@@ -150,4 +154,34 @@ header {
 /* フッター */
 footer {
   background-color: #3F4349;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.other_info {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.other_info a {
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.copyright {
+  margin: 10px;
+  font-size: 10px;
 }
