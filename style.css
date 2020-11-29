@@ -26,6 +26,7 @@ body {
   font-family: sans-serif;
   background-color: #9D9690;
   color: #ffffff;
+  width: 100vw;
 }
 
 /* ヘッダー */
@@ -73,23 +74,31 @@ header {
 
 .background.ver {
   width: 100%;
+  z-index: -2;
   /* height: 430px; */
 }
 
 .background.hor {
   height: 430px;
+  z-index: -1;
 }
 
 /* 段落のスタイル統一設定 */
 .parts {
   height: 430px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.parts .background {
+.background {
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
+}
+
+
+footer {
+  background-color: #3F4349;
 }
